@@ -1,5 +1,4 @@
 # daily_reminder.py
-# A simple daily reminder program using match-case and conditionals
 
 # Prompt user for input
 task = input("Enter your task: ")
@@ -23,5 +22,5 @@ if time_bound == "yes":
 else:
     reminder = f"Note: {reminder}. Consider completing it when you have free time."
 
-# Print final reminder
-print("\nReminder:", reminder)
+# Corrected print statement
+print(f"Reminder: {reminder}")
